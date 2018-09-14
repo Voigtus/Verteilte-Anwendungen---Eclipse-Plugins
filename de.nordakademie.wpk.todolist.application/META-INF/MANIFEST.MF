@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Application
+Bundle-SymbolicName: de.nordakademie.wpk.todolist.application;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.e4.core.di.annotations,
+  org.eclipse.e4.ui.workbench;bundle-version="1.6.0",
+  org.eclipse.e4.ui.services;bundle-version="1.3.100",
+  org.eclipse.e4.ui.model.workbench;bundle-version="2.1.0",
+  org.eclipse.swt,
+  org.eclipse.jface
+Automatic-Module-Name: de.nordakademie.wpk.todolist.application
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.inject;version="1.0.0"
+Export-Package: de.nordakademie.wpk.todolist.application.constants,
+ de.nordakademie.wpk.todolist.application.editor,
+ de.nordakademie.wpk.todolist.application.handler

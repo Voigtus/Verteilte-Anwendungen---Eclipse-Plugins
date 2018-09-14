@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_csREYK-AEeiqWduAG7IsNA" elementId="de.nordakademie.wpk.todolist.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_M5vxYK-BEeiqWduAG7IsNA" elementId="" label="TodoList">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_39b6EK-BEeiqWduAG7IsNA" elementId="de.nordakademie.wpk.todolist.perspectives"/>
+    <mainMenu xmi:id="_QrSwYK-BEeiqWduAG7IsNA" elementId="de.nordakademie.wpk.todolist.application.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_ZgWskK-BEeiqWduAG7IsNA" elementId="menu:file" label="File">
+        <children xsi:type="menu:MenuSeparator" xmi:id="_js4K8K-BEeiqWduAG7IsNA" elementId="de.nordakademie.wpk.todolist.application.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kmZM4K-BEeiqWduAG7IsNA" elementId="" label="Save" command="_ZqPL4K-CEeiqWduAG7IsNA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_nvj9QK-BEeiqWduAG7IsNA" elementId="de.nordakademie.wpk.todolist.application.menuseparator.1"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_mbhigK-BEeiqWduAG7IsNA" elementId="" label="Exit" command="_Qazn4K-CEeiqWduAG7IsNA"/>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_7PlK0K-CEeiqWduAG7IsNA" elementId="de.nordakademie.wpk.todolist.application.handler.save" contributionURI="bundleclass://de.nordakademie.wpk.todolist.application/de.nordakademie.wpk.todolist.application.handler.SaveHandler" command="_ZqPL4K-CEeiqWduAG7IsNA"/>
+  <handlers xmi:id="_TbBwQK-FEeiqWduAG7IsNA" elementId="de.nordakademie.wpk.todolist.application.handler.exit" contributionURI="bundleclass://de.nordakademie.wpk.todolist.application/de.nordakademie.wpk.todolist.application.handler.QuitHandler" command="_Qazn4K-CEeiqWduAG7IsNA"/>
+  <commands xmi:id="_Qazn4K-CEeiqWduAG7IsNA" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_ZqPL4K-CEeiqWduAG7IsNA" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <addons xmi:id="_csREYa-AEeiqWduAG7IsNA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_csREYq-AEeiqWduAG7IsNA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_csREY6-AEeiqWduAG7IsNA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_csREZK-AEeiqWduAG7IsNA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_csREZa-AEeiqWduAG7IsNA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_csREZq-AEeiqWduAG7IsNA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_csREZ6-AEeiqWduAG7IsNA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

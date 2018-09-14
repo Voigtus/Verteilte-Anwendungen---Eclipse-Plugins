@@ -1,0 +1,12 @@
+#ignore meta 
+.metadata/
+.recommenders/
+Viewers in Action/
+ZIP Manager/
+de.nordakademie.plugin.hello/
+de.nordakademie.wpk.widgets/
+de.nordakademie.wpk.zipmanager.core.zip
+de.nordakademie.wpk.zipmanager.core/
+de.nordakademie.wpk.zipmanager.ui/
+de.nordakadmie.wkp.zipmanager.ui/
+*.zip
