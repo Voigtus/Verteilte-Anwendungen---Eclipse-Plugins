@@ -10,3 +10,4 @@ de.nordakademie.wpk.zipmanager.core/
 de.nordakademie.wpk.zipmanager.ui/
 de.nordakadmie.wkp.zipmanager.ui/
 *.zip
+*.class
