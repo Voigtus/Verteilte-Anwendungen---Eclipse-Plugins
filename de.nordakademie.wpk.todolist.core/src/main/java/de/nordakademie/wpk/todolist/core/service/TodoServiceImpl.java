@@ -1,4 +1,4 @@
-package de.nordakademie.wpk.backend.core.service;
+package de.nordakademie.wpk.todolist.core.service;
 
 import java.util.HashSet;
 import java.util.Set;
