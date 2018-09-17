@@ -19,8 +19,7 @@ Require-Bundle: org.eclipse.core.runtime,
  de.nordakademie.wpk.todolist.core.api;bundle-version="1.0.0",
  org.eclipse.gemini.blueprint.core;bundle-version="2.1.0",
  org.eclipse.gemini.blueprint.extender;bundle-version="2.1.0",
- org.eclipse.gemini.blueprint.io;bundle-version="2.1.0",
- org.springframework;bundle-version="4.3.7"
+ org.eclipse.gemini.blueprint.io;bundle-version="2.1.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: de.nordakademie.wpk.todolist.ui
 Import-Package: javax.annotation;version="1.0.0";resolution:=optional,
