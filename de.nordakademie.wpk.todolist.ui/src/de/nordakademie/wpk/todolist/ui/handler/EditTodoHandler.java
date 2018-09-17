@@ -8,8 +8,8 @@ import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.e4.ui.workbench.modeling.ESelectionService;
 
 import de.nordakademie.wpk.todolist.application.handler.AbstractEditorHandler;
+import de.nordakademie.wpk.todolist.core.api.domain.Todo;
 import de.nordakademie.wpk.todolist.ui.Activator;
-import de.nordakademie.wpk.todolist.ui.domain.Todo;
 import de.nordakademie.wpk.todolist.ui.editor.TodoEditorInput;
 
 public class EditTodoHandler extends AbstractEditorHandler {

@@ -17,8 +17,8 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Table;
 import org.eclipse.swt.widgets.TableColumn;
 
+import de.nordakademie.wpk.todolist.core.api.service.ITodoService;
 import de.nordakademie.wpk.todolist.ui.provider.TodoTableLabelProvider;
-import de.nordakademie.wpk.todolist.ui.service.TodoService;
 
 public class TodoView {
 	private static final String CONTEXT_MENU_ID = "de.nordakademie.wpk.todolist.ui.view.TodoView";
@@ -28,7 +28,7 @@ public class TodoView {
 	private TableViewer tableViewerTodos;
 
 	@Inject
-	private TodoService todoService;
+	private ITodoService todoService;
 
 	@Inject
 	private EMenuService eMenuService;

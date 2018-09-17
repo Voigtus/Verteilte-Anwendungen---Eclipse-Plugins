@@ -4,7 +4,7 @@ import org.eclipse.jface.viewers.ITableLabelProvider;
 import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.swt.graphics.Image;
 
-import de.nordakademie.wpk.todolist.ui.domain.Todo;
+import de.nordakademie.wpk.todolist.core.api.domain.Todo;
 
 public class TodoTableLabelProvider extends LabelProvider implements ITableLabelProvider {
 

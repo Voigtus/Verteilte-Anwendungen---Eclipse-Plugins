@@ -1,20 +1,12 @@
-package de.nordakademie.wpk.todolist.ui.service;
+package de.nordakademie.wpk.backend.core.service;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.inject.Inject;
+import de.nordakademie.wpk.todolist.core.api.domain.Todo;
+import de.nordakademie.wpk.todolist.core.api.service.ITodoService;
 
-import org.eclipse.e4.core.di.annotations.Creatable;
-import org.eclipse.e4.core.services.events.IEventBroker;
-
-import de.nordakademie.wpk.todolist.ui.domain.Todo;
-
-@Creatable
-public class TodoService {
-	
-	@Inject
-	private IEventBroker msgBroker;
+public class TodoServiceImpl implements ITodoService {
 	
 	private static Set<Todo> todos = new HashSet<>();
 
@@ -26,14 +18,17 @@ public class TodoService {
 
 	}
 
+	@Override
 	public Set<Todo> loadAll() {
 		return todos;
 	}
 
+	@Override
 	public Todo load(final String todoName) {
 		return todos.stream().filter(todo -> todoName.equals(todo.getTitle())).findFirst().get();
 	}
 	
+	@Override
 	public void save(Todo todo) {
 		todos.add(todo);
 	}

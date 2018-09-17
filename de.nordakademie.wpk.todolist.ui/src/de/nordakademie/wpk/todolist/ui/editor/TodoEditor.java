@@ -3,7 +3,6 @@ package de.nordakademie.wpk.todolist.ui.editor;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
-import javax.lang.model.element.Element;
 
 import org.eclipse.e4.ui.di.Persist;
 import org.eclipse.e4.ui.model.application.ui.basic.MPart;
@@ -17,12 +16,11 @@ import org.eclipse.swt.widgets.Spinner;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.forms.widgets.FormToolkit;
 import org.eclipse.ui.forms.widgets.Section;
-import org.eclipse.ui.internal.e4.compatibility.SelectionService;
 
 import de.nordakademie.wpk.todolist.application.constants.Constants;
 import de.nordakademie.wpk.todolist.application.handler.DirtyHandler;
-import de.nordakademie.wpk.todolist.ui.domain.Todo;
-import de.nordakademie.wpk.todolist.ui.service.TodoService;
+import de.nordakademie.wpk.todolist.core.api.domain.Todo;
+import de.nordakademie.wpk.todolist.core.api.service.ITodoService;
 
 public class TodoEditor {
 
@@ -36,7 +34,7 @@ public class TodoEditor {
 	private DirtyHandler dirtyHandler;
 
 	@Inject
-	private TodoService todoService;
+	private ITodoService todoService;
 
 	@Inject
 	private MPart editorPart;
@@ -121,7 +119,7 @@ public class TodoEditor {
 		inputObject.setDescription(textDescription.getText());
 		inputObject.setAssignee(textAssignee.getText());
 	}
-	
+
 	private void updatePart() {
 		editorPart.setElementId(editorInput.getId());
 		editorPart.setLabel(editorInput.getLabel());

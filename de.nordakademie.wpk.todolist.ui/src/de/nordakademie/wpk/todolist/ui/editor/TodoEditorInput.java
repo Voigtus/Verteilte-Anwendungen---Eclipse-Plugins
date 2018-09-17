@@ -1,7 +1,7 @@
 package de.nordakademie.wpk.todolist.ui.editor;
 
 import de.nordakademie.wpk.todolist.application.editor.EditorInput;
-import de.nordakademie.wpk.todolist.ui.domain.Todo;
+import de.nordakademie.wpk.todolist.core.api.domain.Todo;
 
 public class TodoEditorInput implements EditorInput<Todo> {
 
