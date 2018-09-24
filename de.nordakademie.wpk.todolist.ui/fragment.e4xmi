@@ -18,7 +18,7 @@
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KR1MACnbEeS_d6C9dgunAQ" featurename="handlers" parentElementId="de.nordakademie.wpk.todolist.application">
     <elements xsi:type="commands:Handler" xmi:id="_MsxkcCnbEeS_d6C9dgunAQ" elementId="de.nordakademie.wpk.todolist.ui.handler.editTodoHandler" contributionURI="bundleclass://de.nordakademie.wpk.todolist.ui/de.nordakademie.wpk.todolist.ui.handler.EditTodoHandler" command="_Fj4PICnbEeS_d6C9dgunAQ"/>
-    <elements xsi:type="commands:Handler" xmi:id="_vcqLoCoiEeS_d6C9dgunAQ" elementId="de.nordakademie.wpk.todolist.ui.handler.0" contributionURI="bundleclass://de.nordakademie.wpk.todolist.ui/de.nordakademie.wpk.todolist.ui.handler.NewTodoHandler" command="_rxloECoiEeS_d6C9dgunAQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_vcqLoCoiEeS_d6C9dgunAQ" elementId="de.nordakademie.wpk.todolist.ui.handler.newTodoHandler" contributionURI="bundleclass://de.nordakademie.wpk.todolist.ui/de.nordakademie.wpk.todolist.ui.handler.NewTodoHandler" command="_rxloECoiEeS_d6C9dgunAQ"/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_60eYcCoiEeS_d6C9dgunAQ" featurename="children" parentElementId="menu:file" positionInList="after:separator.additions">
     <elements xsi:type="menu:HandledMenuItem" xmi:id="_gKRxQCojEeS_d6C9dgunAQ" elementId="" label="New" command="_rxloECoiEeS_d6C9dgunAQ"/>
