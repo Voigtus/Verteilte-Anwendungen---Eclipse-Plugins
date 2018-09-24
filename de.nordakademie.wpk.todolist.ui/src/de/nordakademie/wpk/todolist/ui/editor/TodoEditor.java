@@ -7,6 +7,7 @@ import javax.inject.Inject;
 import org.eclipse.core.runtime.jobs.IJobChangeEvent;
 import org.eclipse.core.runtime.jobs.IJobChangeListener;
 import org.eclipse.core.runtime.jobs.JobChangeAdapter;
+import org.eclipse.e4.core.services.events.IEventBroker;
 import org.eclipse.e4.ui.di.Persist;
 import org.eclipse.e4.ui.model.application.ui.basic.MPart;
 import org.eclipse.swt.SWT;
@@ -36,7 +37,10 @@ public class TodoEditor {
 
 	private TodoEditorInput editorInput;
 	private DirtyHandler dirtyHandler;
-
+	
+	@Inject
+	private IEventBroker eventBroker;
+	
 	@Inject
 	private ITodoService todoService;
 
@@ -115,6 +119,7 @@ public class TodoEditor {
 	public void save() {
 		updateModel();
 		updatePart();
+		eventBroker.post(Constants.DATA_CHANGE, editorInput.getResourceURIString());
 	}
 
 	private void updateModel() {

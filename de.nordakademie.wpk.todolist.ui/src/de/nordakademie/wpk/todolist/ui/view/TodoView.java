@@ -4,7 +4,9 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.inject.Inject;
 
+import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.e4.ui.di.UIEventTopic;
 import org.eclipse.e4.ui.services.EMenuService;
 import org.eclipse.e4.ui.workbench.modeling.ESelectionService;
 import org.eclipse.jface.viewers.ArrayContentProvider;
@@ -17,6 +19,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Table;
 import org.eclipse.swt.widgets.TableColumn;
 
+import de.nordakademie.wpk.todolist.application.constants.Constants;
 import de.nordakademie.wpk.todolist.core.api.service.ITodoService;
 import de.nordakademie.wpk.todolist.ui.provider.TodoTableLabelProvider;
 
@@ -81,6 +84,17 @@ public class TodoView {
 		initialiseViewer();
 		initialiseContextMenu();
 		initialiseSelectionHandling();
+	}
+	
+	@Optional
+	@Inject
+	public void handleDataChange(@UIEventTopic(value = Constants.DATA_CHANGE) String resourceUri) {
+		refresh();
+	}
+
+	private void refresh() {
+		tableViewerTodos.setInput(todoService.loadAll());
+		tableViewerTodos.refresh();
 	}
 
 	private void initialiseSelectionHandling() {
