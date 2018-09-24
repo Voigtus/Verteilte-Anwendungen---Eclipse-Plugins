@@ -4,6 +4,9 @@ package de.nordakademie.wpk.todolist.ui.editor;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
+import org.eclipse.core.runtime.jobs.IJobChangeEvent;
+import org.eclipse.core.runtime.jobs.IJobChangeListener;
+import org.eclipse.core.runtime.jobs.JobChangeAdapter;
 import org.eclipse.e4.ui.di.Persist;
 import org.eclipse.e4.ui.model.application.ui.basic.MPart;
 import org.eclipse.swt.SWT;
@@ -21,6 +24,7 @@ import de.nordakademie.wpk.todolist.application.constants.Constants;
 import de.nordakademie.wpk.todolist.application.handler.DirtyHandler;
 import de.nordakademie.wpk.todolist.core.api.domain.Todo;
 import de.nordakademie.wpk.todolist.core.api.service.ITodoService;
+import de.nordakademie.wpk.todolist.ui.job.SaveTodoJob;
 
 public class TodoEditor {
 
@@ -118,6 +122,11 @@ public class TodoEditor {
 		inputObject.setTitle(textName.getText());
 		inputObject.setDescription(textDescription.getText());
 		inputObject.setAssignee(textAssignee.getText());
+		
+		SaveTodoJob saveTodoJob = new SaveTodoJob(inputObject, todoService);
+		saveTodoJob.schedule();
+		
+		editorPart.setDirty(false);
 	}
 
 	private void updatePart() {

@@ -1,20 +1,25 @@
 package de.nordakademie.wpk.todolist.core.api.domain;
 
-public class Todo {
+import java.io.Serializable;
+import java.util.UUID;
 
+public class Todo implements Serializable {
+	private static final long serialVersionUID = 5007601441111965859L;
 	private String title;
 	private String description;
 	private int priorität;
 	private String assignee;
 	private boolean done;
+	private UUID id;
 
-	public Todo(String title, String description, int priorität, String assignee, boolean done) {
+	public Todo(String title, String description, int priorität, String assignee, boolean done, UUID id) {
 		super();
 		this.title = title;
 		this.description = description;
 		this.priorität = priorität;
 		this.assignee = assignee;
 		this.done = done;
+		this.id = (id == null? UUID.randomUUID() : id);
 	}
 
 	public String getTitle() {
@@ -61,8 +66,7 @@ public class Todo {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((description == null) ? 0 : description.hashCode());
-		result = prime * result + ((title == null) ? 0 : title.hashCode());
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		return result;
 	}
 
@@ -75,15 +79,10 @@ public class Todo {
 		if (getClass() != obj.getClass())
 			return false;
 		Todo other = (Todo) obj;
-		if (description == null) {
-			if (other.description != null)
+		if (id == null) {
+			if (other.id != null)
 				return false;
-		} else if (!description.equals(other.description))
-			return false;
-		if (title == null) {
-			if (other.title != null)
-				return false;
-		} else if (!title.equals(other.title))
+		} else if (!id.equals(other.id))
 			return false;
 		return true;
 	}

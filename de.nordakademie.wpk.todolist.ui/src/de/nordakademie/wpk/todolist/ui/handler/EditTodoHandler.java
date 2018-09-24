@@ -21,7 +21,6 @@ public class EditTodoHandler extends AbstractEditorHandler {
 	public void execute() {
 		Todo selection = (Todo) selectionService.getSelection();
 		openEditor( new TodoEditorInput((Todo) selectionService.getSelection()), Activator.PLUGIN_ID);
-		System.out.println(selection.getTitle() + " editing...");
 	}
 
 	@CanExecute
