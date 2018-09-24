@@ -24,8 +24,11 @@ public class TodoServiceImpl implements ITodoService {
 	}
 
 	@Override
-	public Todo load(final String todoName) {
-		return todos.stream().filter(todo -> todoName.equals(todo.getTitle())).findFirst().get();
+	public Todo load(String todoName) {
+		return todos.stream()
+				.filter(todo -> todoName.equals(todo.getTitle()))
+				.findFirst()
+				.orElseGet(null);
 	}
 
 	@Override

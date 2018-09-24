@@ -62,7 +62,7 @@ public class TodoView {
 		tblTodos.setLayoutData(gd_tblTodos);
 
 		TableColumn tblclmnName = new TableColumn(tblTodos, SWT.NONE);
-		tblclmnName.setWidth(100);
+		tblclmnName.setWidth(150);
 		tblclmnName.setText("Name");
 
 		TableColumn tblclmnDescription = new TableColumn(tblTodos, SWT.NONE);

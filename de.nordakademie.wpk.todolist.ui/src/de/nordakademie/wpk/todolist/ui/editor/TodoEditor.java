@@ -48,9 +48,7 @@ public class TodoEditor {
 	private MPart editorPart;
 
 	@Inject
-	public TodoEditor() {
-
-	}
+	public TodoEditor() {}
 
 	@PostConstruct
 	public void postConstruct(Composite parent) {
