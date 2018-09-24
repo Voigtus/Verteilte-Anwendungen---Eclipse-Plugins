@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Todolist Client Bundle
+Bundle-SymbolicName: de.nordakademie.wpk.todolist.core.client
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: de.nordakademie.wpk.todolist.core.client
+Spring-Context: *;create-asynchronously:=false
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: de.nordakademie.wpk.todolist.core.api,
+ org.springframework;bundle-version="4.3.7"

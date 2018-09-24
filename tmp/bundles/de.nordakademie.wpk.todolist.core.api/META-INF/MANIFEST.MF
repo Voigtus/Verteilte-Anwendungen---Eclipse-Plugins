@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TodoList Core API bundle
+Bundle-SymbolicName: de.nordakademie.wpk.todolist.core.api
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: de.nordakademie.wpk.todolist.core.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: de.nordakademie.wpk.todolist.core.api.domain,
+ de.nordakademie.wpk.todolist.core.api.service
