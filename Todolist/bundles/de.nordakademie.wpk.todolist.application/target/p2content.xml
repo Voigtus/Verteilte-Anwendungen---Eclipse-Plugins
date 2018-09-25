@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'>
+    <update id='de.nordakademie.wpk.todolist.application' range='[0.0.0,1.0.0.201809250804)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Application'/>
+      <property name='maven-groupId' value='de.nordakademie'/>
+      <property name='maven-artifactId' value='de.nordakademie.wpk.todolist.application'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='6'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'/>
+      <provided namespace='osgi.bundle' name='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'/>
+      <provided namespace='java.package' name='de.nordakademie.wpk.todolist.application.constants' version='0.0.0'/>
+      <provided namespace='java.package' name='de.nordakademie.wpk.todolist.application.editor' version='0.0.0'/>
+      <provided namespace='java.package' name='de.nordakademie.wpk.todolist.application.handler' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='8'>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.di.annotations' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.workbench' range='1.6.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.services' range='1.3.100'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.model.workbench' range='2.1.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.osgi' range='0.0.0'/>
+      <required namespace='java.package' name='javax.inject' range='1.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.nordakademie.wpk.todolist.application;singleton:=true&#xA;Bundle-Version: 1.0.0.201809250804&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

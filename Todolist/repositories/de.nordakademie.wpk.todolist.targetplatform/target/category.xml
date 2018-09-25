@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="org.eclipse.gemini.blueprint.core" version="2.1.0.RELEASE">
+      <category name="eclipse"/>
+   </bundle>
+   <bundle id="org.eclipse.gemini.blueprint.extender" version="2.1.0.RELEASE">
+      <category name="eclipse"/>
+   </bundle>
+   <bundle id="org.eclipse.gemini.blueprint.io" version="2.1.0.RELEASE">
+      <category name="eclipse"/>
+   </bundle>
+   <bundle id="org.springframework" version="4.3.7">
+      <category name="spring.framework"/>
+   </bundle>
+   <category-def name="eclipse" label="Eclipse"/>
+   <category-def name="spring.framework" label="Spring Framework"/>
+</site>

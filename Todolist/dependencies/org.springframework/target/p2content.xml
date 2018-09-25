@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.springframework' version='4.3.7' singleton='false'>
+    <update id='org.springframework' range='[0.0.0,4.3.7)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Springframework'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Stefan Reichert'/>
+      <property name='maven-groupId' value='de.nordakademie'/>
+      <property name='maven-artifactId' value='org.springframework'/>
+      <property name='maven-version' value='4.3.7'/>
+    </properties>
+    <provides size='185'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.springframework' version='4.3.7'/>
+      <provided namespace='osgi.bundle' name='org.springframework' version='4.3.7'/>
+      <provided namespace='java.package' name='org.aopalliance.aop' version='4.3.7'/>
+      <provided namespace='java.package' name='org.aopalliance.intercept' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.aspectj' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.aspectj.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.aspectj.autoproxy' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.config' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.framework' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.framework.adapter' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.framework.autoproxy' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.framework.autoproxy.target' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.interceptor' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.scope' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.support.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.target' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.aop.target.dynamic' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.asm' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.access' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.access.el' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.config' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.groovy' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.parsing' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.serviceloader' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.wiring' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.xml' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.propertyeditors' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.beans.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cache' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cache.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cache.concurrent' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cache.config' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cache.interceptor' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cache.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib.beans' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib.core' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib.core.internal' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib.proxy' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib.reflect' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib.transform' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib.transform.impl' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.cglib.util' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context.access' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context.config' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context.event' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context.expression' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context.i18n' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.context.weaving' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.convert' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.convert.converter' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.convert.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.env' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.io' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.io.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.serializer' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.serializer.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.style' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.task' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.task.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.type' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.type.classreading' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.core.type.filter' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.ejb.access' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.ejb.config' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.ejb.interceptor' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.expression' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.expression.common' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.expression.spel' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.expression.spel.ast' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.expression.spel.standard' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.expression.spel.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.format' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.format.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.format.datetime' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.format.datetime.joda' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.format.datetime.standard' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.format.number' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.format.number.money' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.format.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.client' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.client.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.converter' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.feed' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.json' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.protobuf' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.xml' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.http.server' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.instrument.classloading' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.instrument.classloading.glassfish' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.instrument.classloading.jboss' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.instrument.classloading.tomcat' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.instrument.classloading.weblogic' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.instrument.classloading.websphere' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx.access' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx.export' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx.export.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx.export.assembler' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx.export.metadata' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx.export.naming' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx.export.notification' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jmx.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jndi' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.jndi.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.lang' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.android' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.annotations' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.basic' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.gcj' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.perc' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.sun' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.strategy' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.remoting' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.remoting.caucho' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.remoting.httpinvoker' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.remoting.jaxws' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.remoting.rmi' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.remoting.soap' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.remoting.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scheduling' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scheduling.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scheduling.concurrent' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scheduling.config' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scheduling.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scripting' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scripting.bsh' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scripting.config' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scripting.groovy' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scripting.jruby' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.scripting.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.stereotype' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.ui' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.ui.context' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.ui.context.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.util' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.util.backoff' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.util.comparator' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.util.concurrent' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.util.xml' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.validation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.validation.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.validation.beanvalidation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.validation.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.accept' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.bind' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.bind.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.bind.annotation.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.bind.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.client' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.client.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.context' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.context.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.context.request' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.context.request.async' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.context.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.cors' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.filter' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.jsf' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.jsf.el' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.method' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.method.annotation' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.method.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.multipart' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.multipart.commons' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.multipart.support' version='4.3.7'/>
+      <provided namespace='java.package' name='org.springframework.web.util' version='4.3.7'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='osgi.bundle' name='org.apache.commons.logging' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.springframework' version='4.3.7'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.springframework&#xA;Bundle-Version: 4.3.7&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

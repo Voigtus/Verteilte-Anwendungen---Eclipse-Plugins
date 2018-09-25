@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='201809250804.eclipse' version='1.0.0.7B5-cLY6yE9pbDaDtZ'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='Eclipse'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201809250804.eclipse' version='1.0.0.7B5-cLY6yE9pbDaDtZ'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gemini.blueprint.io' range='[2.1.0.RELEASE,2.1.0.RELEASE]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gemini.blueprint.extender' range='[2.1.0.RELEASE,2.1.0.RELEASE]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gemini.blueprint.core' range='[2.1.0.RELEASE,2.1.0.RELEASE]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+  <unit id='201809250804.spring.framework' version='1.0.0.7857CcOsE'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='Spring Framework'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201809250804.spring.framework' version='1.0.0.7857CcOsE'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.springframework' range='[4.3.7,4.3.7]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>

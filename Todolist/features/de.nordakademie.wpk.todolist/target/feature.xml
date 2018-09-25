@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.nordakademie.wpk.todolist"
+      label="Todolist Feature"
+      version="1.0.0.201809250804">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="de.nordakademie.wpk.todolist.ui"
+         download-size="15"
+         install-size="25"
+         version="1.0.0.201809250804"
+         unpack="false"/>
+
+   <plugin
+         id="de.nordakademie.wpk.todolist.application"
+         download-size="9"
+         install-size="14"
+         version="1.0.0.201809250804"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.blueprint.core"
+         download-size="577"
+         install-size="1305"
+         version="2.1.0.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.blueprint.extender"
+         download-size="179"
+         install-size="363"
+         version="2.1.0.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.blueprint.io"
+         download-size="32"
+         install-size="61"
+         version="2.1.0.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework"
+         download-size="3882"
+         install-size="4392"
+         version="4.3.7"/>
+
+   <plugin
+         id="de.nordakademie.wpk.todolist.core.client"
+         download-size="2"
+         install-size="2"
+         version="1.0.0.201809250804"
+         unpack="false"/>
+
+   <plugin
+         id="de.nordakademie.wpk.todolist.core.api"
+         download-size="4"
+         install-size="4"
+         version="1.0.0.201809250804"
+         unpack="false"/>
+
+</feature>

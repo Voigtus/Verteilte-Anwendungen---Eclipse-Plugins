@@ -11,3 +11,5 @@ de.nordakademie.wpk.zipmanager.ui/
 de.nordakadmie.wkp.zipmanager.ui/
 *.zip
 *.class
+
+Todolist/repositories/de.nordakademie.wpk.todolist.product/target/
