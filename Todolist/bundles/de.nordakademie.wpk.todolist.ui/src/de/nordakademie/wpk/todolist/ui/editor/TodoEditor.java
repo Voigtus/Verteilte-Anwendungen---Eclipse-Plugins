@@ -109,7 +109,7 @@ public class TodoEditor {
 		Todo todo = editorInput.getInputObject();
 		textName.setText(todo.getTitle());
 		textDescription.setText(todo.getDescription());
-		spinnerPriority.setSelection(todo.getPriorität());
+		spinnerPriority.setSelection(todo.getPrioritaet());
 		textAssignee.setText(todo.getAssignee());
 	}
 

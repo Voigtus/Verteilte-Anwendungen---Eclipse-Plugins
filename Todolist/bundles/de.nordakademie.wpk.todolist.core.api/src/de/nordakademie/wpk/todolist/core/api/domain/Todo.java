@@ -7,7 +7,7 @@ public class Todo implements Serializable {
 	private static final long serialVersionUID = 5007601441111965859L;
 	private String title;
 	private String description;
-	private int priorität;
+	private int prioritaet;
 	private String assignee;
 	private boolean done;
 	private UUID id;
@@ -16,7 +16,7 @@ public class Todo implements Serializable {
 		super();
 		this.title = title;
 		this.description = description;
-		this.priorität = priorität;
+		this.prioritaet = priorität;
 		this.assignee = assignee;
 		this.done = done;
 		this.id = (id == null? UUID.randomUUID() : id);
@@ -38,12 +38,12 @@ public class Todo implements Serializable {
 		this.description = description;
 	}
 
-	public int getPriorität() {
-		return priorität;
+	public int getPrioritaet() {
+		return prioritaet;
 	}
 
-	public void setPriorität(int priorität) {
-		this.priorität = priorität;
+	public void setPrioritaet(int priorität) {
+		this.prioritaet = priorität;
 	}
 
 	public String getAssignee() {

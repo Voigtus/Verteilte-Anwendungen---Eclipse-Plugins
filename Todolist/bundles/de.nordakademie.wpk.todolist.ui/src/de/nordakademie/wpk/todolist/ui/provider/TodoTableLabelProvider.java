@@ -21,7 +21,7 @@ public class TodoTableLabelProvider extends LabelProvider implements ITableLabel
 		} else if(columnIndex == 1) {
 			return todo.getDescription();
 		} else if(columnIndex == 2) {
-			return String.valueOf(todo.getPriorität());
+			return String.valueOf(todo.getPrioritaet());
 		} else if(columnIndex == 3) {
 			return todo.getAssignee();
 		} else if(columnIndex == 4) {
