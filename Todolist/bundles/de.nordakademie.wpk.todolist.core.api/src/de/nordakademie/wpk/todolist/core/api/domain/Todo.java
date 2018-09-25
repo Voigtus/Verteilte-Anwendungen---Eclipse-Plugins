@@ -12,11 +12,11 @@ public class Todo implements Serializable {
 	private boolean done;
 	private UUID id;
 
-	public Todo(String title, String description, int priorität, String assignee, boolean done, UUID id) {
+	public Todo(String title, String description, int prioritaet, String assignee, boolean done, UUID id) {
 		super();
 		this.title = title;
 		this.description = description;
-		this.prioritaet = priorität;
+		this.prioritaet = prioritaet;
 		this.assignee = assignee;
 		this.done = done;
 		this.id = (id == null? UUID.randomUUID() : id);
@@ -42,8 +42,8 @@ public class Todo implements Serializable {
 		return prioritaet;
 	}
 
-	public void setPrioritaet(int priorität) {
-		this.prioritaet = priorität;
+	public void setPrioritaet(int prioritaet) {
+		this.prioritaet = prioritaet;
 	}
 
 	public String getAssignee() {
