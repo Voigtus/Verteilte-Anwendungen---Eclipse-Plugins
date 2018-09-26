@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Automatic-Module-Name: de.nordakademie.wpk.todolist.ui
 Bundle-SymbolicName: de.nordakademie.wpk.todolist.ui;singleton:=true
 Bundle-Name: TodoList Ui Bundle
-Bundle-Version: 1.0.0.201809250804
+Bundle-Version: 1.0.0.201809260802
 Require-Bundle: org.eclipse.core.runtime,org.eclipse.swt;bundle-versio
  n="3.107.0",org.eclipse.e4.ui.di;bundle-version="1.2.200",org.eclipse
  .ui;bundle-version="3.109.100",org.eclipse.e4.core.di;bundle-version=

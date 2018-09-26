@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='org.eclipse.update.feature' id='de.nordakademie.wpk.todolist' version='1.0.0.201809250804'>
+  <artifact classifier='org.eclipse.update.feature' id='de.nordakademie.wpk.todolist' version='1.0.0.201809260802'>
     <properties size='6'>
-      <property name='artifact.size' value='910'/>
-      <property name='download.size' value='910'/>
+      <property name='artifact.size' value='911'/>
+      <property name='download.size' value='911'/>
       <property name='maven-groupId' value='de.nordakademie'/>
       <property name='maven-artifactId' value='de.nordakademie.wpk.todolist'/>
       <property name='maven-version' value='1.0.0-SNAPSHOT'/>

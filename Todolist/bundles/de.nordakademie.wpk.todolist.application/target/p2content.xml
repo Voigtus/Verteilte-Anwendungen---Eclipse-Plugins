@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='1'>
-  <unit id='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'>
-    <update id='de.nordakademie.wpk.todolist.application' range='[0.0.0,1.0.0.201809250804)' severity='0'/>
+  <unit id='de.nordakademie.wpk.todolist.application' version='1.0.0.201809260802'>
+    <update id='de.nordakademie.wpk.todolist.application' range='[0.0.0,1.0.0.201809260802)' severity='0'/>
     <properties size='4'>
       <property name='org.eclipse.equinox.p2.name' value='Application'/>
       <property name='maven-groupId' value='de.nordakademie'/>
@@ -9,8 +9,8 @@
       <property name='maven-version' value='1.0.0-SNAPSHOT'/>
     </properties>
     <provides size='6'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'/>
-      <provided namespace='osgi.bundle' name='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.application' version='1.0.0.201809260802'/>
+      <provided namespace='osgi.bundle' name='de.nordakademie.wpk.todolist.application' version='1.0.0.201809260802'/>
       <provided namespace='java.package' name='de.nordakademie.wpk.todolist.application.constants' version='0.0.0'/>
       <provided namespace='java.package' name='de.nordakademie.wpk.todolist.application.editor' version='0.0.0'/>
       <provided namespace='java.package' name='de.nordakademie.wpk.todolist.application.handler' version='0.0.0'/>
@@ -27,13 +27,13 @@
       <required namespace='java.package' name='javax.inject' range='1.0.0'/>
     </requires>
     <artifacts size='1'>
-      <artifact classifier='osgi.bundle' id='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'/>
+      <artifact classifier='osgi.bundle' id='de.nordakademie.wpk.todolist.application' version='1.0.0.201809260802'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='1'>
         <instruction key='manifest'>
-          Bundle-SymbolicName: de.nordakademie.wpk.todolist.application;singleton:=true&#xA;Bundle-Version: 1.0.0.201809250804&#xA;
+          Bundle-SymbolicName: de.nordakademie.wpk.todolist.application;singleton:=true&#xA;Bundle-Version: 1.0.0.201809260802&#xA;
         </instruction>
       </instructions>
     </touchpointData>

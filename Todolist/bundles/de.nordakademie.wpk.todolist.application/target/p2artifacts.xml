@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='de.nordakademie.wpk.todolist.application' version='1.0.0.201809250804'>
+  <artifact classifier='osgi.bundle' id='de.nordakademie.wpk.todolist.application' version='1.0.0.201809260802'>
     <properties size='5'>
       <property name='artifact.size' value='10234'/>
       <property name='download.size' value='10234'/>

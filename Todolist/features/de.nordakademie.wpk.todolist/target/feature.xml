@@ -2,7 +2,7 @@
 <feature
       id="de.nordakademie.wpk.todolist"
       label="Todolist Feature"
-      version="1.0.0.201809250804">
+      version="1.0.0.201809260802">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -20,14 +20,14 @@
          id="de.nordakademie.wpk.todolist.ui"
          download-size="15"
          install-size="25"
-         version="1.0.0.201809250804"
+         version="1.0.0.201809260802"
          unpack="false"/>
 
    <plugin
          id="de.nordakademie.wpk.todolist.application"
          download-size="9"
          install-size="14"
-         version="1.0.0.201809250804"
+         version="1.0.0.201809260802"
          unpack="false"/>
 
    <plugin
@@ -61,14 +61,14 @@
          id="de.nordakademie.wpk.todolist.core.client"
          download-size="2"
          install-size="2"
-         version="1.0.0.201809250804"
+         version="1.0.0.201809260802"
          unpack="false"/>
 
    <plugin
          id="de.nordakademie.wpk.todolist.core.api"
          download-size="4"
          install-size="4"
-         version="1.0.0.201809250804"
+         version="1.0.0.201809260802"
          unpack="false"/>
 
 </feature>

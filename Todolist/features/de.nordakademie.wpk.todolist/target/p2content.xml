@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='2'>
-  <unit id='de.nordakademie.wpk.todolist.feature.group' version='1.0.0.201809250804' singleton='false'>
-    <update id='de.nordakademie.wpk.todolist.feature.group' range='[0.0.0,1.0.0.201809250804)' severity='0'/>
+  <unit id='de.nordakademie.wpk.todolist.feature.group' version='1.0.0.201809260802' singleton='false'>
+    <update id='de.nordakademie.wpk.todolist.feature.group' range='[0.0.0,1.0.0.201809260802)' severity='0'/>
     <properties size='7'>
       <property name='org.eclipse.equinox.p2.name' value='Todolist Feature'/>
       <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
@@ -12,18 +12,18 @@
       <property name='maven-version' value='1.0.0-SNAPSHOT'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.feature.group' version='1.0.0.201809250804'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.feature.group' version='1.0.0.201809260802'/>
     </provides>
     <requires size='9'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.ui' range='[1.0.0.201809250804,1.0.0.201809250804]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.application' range='[1.0.0.201809250804,1.0.0.201809250804]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.ui' range='[1.0.0.201809260802,1.0.0.201809260802]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.application' range='[1.0.0.201809260802,1.0.0.201809260802]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gemini.blueprint.core' range='[2.1.0.RELEASE,2.1.0.RELEASE]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gemini.blueprint.extender' range='[2.1.0.RELEASE,2.1.0.RELEASE]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gemini.blueprint.io' range='[2.1.0.RELEASE,2.1.0.RELEASE]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.springframework' range='[4.3.7,4.3.7]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.core.client' range='[1.0.0.201809250804,1.0.0.201809250804]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.core.api' range='[1.0.0.201809250804,1.0.0.201809250804]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.feature.jar' range='[1.0.0.201809250804,1.0.0.201809250804]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.core.client' range='[1.0.0.201809260802,1.0.0.201809260802]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.core.api' range='[1.0.0.201809260802,1.0.0.201809260802]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.feature.jar' range='[1.0.0.201809260802,1.0.0.201809260802]'>
         <filter>
           (org.eclipse.update.install.features=true)
         </filter>
@@ -39,7 +39,7 @@
       [Enter Copyright Description here.]
     </copyright>
   </unit>
-  <unit id='de.nordakademie.wpk.todolist.feature.jar' version='1.0.0.201809250804'>
+  <unit id='de.nordakademie.wpk.todolist.feature.jar' version='1.0.0.201809260802'>
     <properties size='6'>
       <property name='org.eclipse.equinox.p2.name' value='Todolist Feature'/>
       <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
@@ -49,15 +49,15 @@
       <property name='maven-version' value='1.0.0-SNAPSHOT'/>
     </properties>
     <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.feature.jar' version='1.0.0.201809250804'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.nordakademie.wpk.todolist.feature.jar' version='1.0.0.201809260802'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-      <provided namespace='org.eclipse.update.feature' name='de.nordakademie.wpk.todolist' version='1.0.0.201809250804'/>
+      <provided namespace='org.eclipse.update.feature' name='de.nordakademie.wpk.todolist' version='1.0.0.201809260802'/>
     </provides>
     <filter>
       (org.eclipse.update.install.features=true)
     </filter>
     <artifacts size='1'>
-      <artifact classifier='org.eclipse.update.feature' id='de.nordakademie.wpk.todolist' version='1.0.0.201809250804'/>
+      <artifact classifier='org.eclipse.update.feature' id='de.nordakademie.wpk.todolist' version='1.0.0.201809260802'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>

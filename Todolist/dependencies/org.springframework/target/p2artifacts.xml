@@ -3,8 +3,8 @@
 <artifacts size='1'>
   <artifact classifier='osgi.bundle' id='org.springframework' version='4.3.7'>
     <properties size='5'>
-      <property name='artifact.size' value='3975425'/>
-      <property name='download.size' value='3975425'/>
+      <property name='artifact.size' value='3975424'/>
+      <property name='download.size' value='3975424'/>
       <property name='maven-groupId' value='de.nordakademie'/>
       <property name='maven-artifactId' value='org.springframework'/>
       <property name='maven-version' value='4.3.7'/>
