@@ -12,4 +12,6 @@ de.nordakadmie.wkp.zipmanager.ui/
 *.zip
 *.class
 
+VerteilteAnwendungenHausarbeit/
 Todolist/repositories/de.nordakademie.wpk.todolist.product/target/
+*/target/*
